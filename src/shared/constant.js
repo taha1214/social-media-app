@@ -1,3 +1,3 @@
-const baseUrl = "http://localhost:5000";
+const baseUrl = "https://social-app-backend-ivory.vercel.app";
 
 export { baseUrl };
