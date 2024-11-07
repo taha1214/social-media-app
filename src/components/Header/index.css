@@ -1,0 +1,50 @@
+.main-header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  padding: 0px 20px;
+  border-bottom: 1px solid #efefef;
+}
+
+.main-header .login-signup-button {
+  display: flex;
+  gap: 10px;
+}
+
+.main-header .links-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  /* @media screen and (max-width: 620px) {
+    display: none;
+  } */
+}
+.main-header .links-container a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #1c1c1c;
+  text-decoration: none;
+
+}
+.main-header .links-container .active-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #5a47ab;
+  text-decoration: none;
+}
+img{
+  height: 100px;
+  width: 150px;
+}
+
+@media (max-width: 768px) {
+  .links-container {
+       display: none;
+  }
+}
+/* .mobile-menu-icon { */
+  /* display: block; Show mobile icon */

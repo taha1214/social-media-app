@@ -1,0 +1,45 @@
+.create-blog-form {
+  max-width: 500px;
+  margin: auto;
+  min-height: calc(100vh - 70px);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: left;
+}
+
+.create-blog-form > h1 {
+  margin: 0px 0px 20px 0px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+
+  color: #333333;
+}
+.create-blog-form .field-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.create-blog-form .field-container p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #333333;
+}
+
+.create-blog-form .footer-sec {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.create-blog-form .footer-sec button,
+.footer-sec-button {
+  width: 100%;
+}
